@@ -1,0 +1,80 @@
+@import 'sass/_tokens';
+
+.banner {    
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: $background-body;
+    color: $color-neutral-white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;   
+}
+
+.title {
+    font-size: 4rem;
+    margin-top: 4.875rem;
+    margin-bottom: 2rem;
+}
+
+.paragraph {
+    text-align: left;   
+    margin-left: 30px; 
+    color: $color-neutral;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.paragraph:hover {
+    color: $color-primary-light;
+}
+
+.images {
+    position: relative;
+    height: 406px;
+    left: 100px;
+}
+
+.images img {
+    width: 400px;
+    height: 400px;
+}
+
+@media (max-width: 1100px) {    
+    .banner {
+        padding: 3.5rem 1.5rem;
+    }
+
+    .title {
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .paragraph {
+        margin-bottom: 1.5rem;
+    }
+
+    .images {
+        height: 338px;
+        left: 80px;
+    }
+}
+
+@media (max-width: 744px) {
+    .banner {
+        padding: 2rem 1rem;
+        display: block;
+    }
+
+    .title {
+        margin-bottom: 2rem;
+    }
+
+    .paragraph {
+        margin-bottom: 2rem;
+    }
+
+    .images {
+        height: 307px;
+        left: 50px;
+    }
+}

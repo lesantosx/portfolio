@@ -1,0 +1,8 @@
+@import 'sass/_tokens';
+
+.body h1 {
+  text-align: left;    
+  margin-top: 50px;
+  color: $color-primary-light;
+  font-weight: $font-weight-bold;
+}

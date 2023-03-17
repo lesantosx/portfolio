@@ -1,0 +1,17 @@
+[
+  {
+    "name": "GitHub",
+    "icon": "/assets/icons8-github-50.svg",
+    "link": "https://github.com/lesantosx"
+  },
+  {
+    "name": "LinkedIn",
+    "icon": "/assets/icons8-linkedin-circled-50.svg",
+    "link": "https://www.linkedin.com/in/lesantosx/"
+  },
+  {
+    "name": "Instagram",
+    "icon": "/assets/icons8-instagram-50.svg",
+    "link": "https://www.instagram.com/lets.codegirl/"
+  }     
+]

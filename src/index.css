@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-blue: #041833;
+  --medium-blue: #1875E8;
+  --main-font-color: #041833;
+  --post-font-color: #444444;
+  --white: #FFF;
+  --font-main: 'Raleway', sans-serif;
+  --font-secondary: 'Playfair Display', sans-serif;
+
+  font-family: var(--font-main);
+}
+
+main {
+  padding: 0px 200px;
+  background-color: #11172B;
+}
+
+a, button, input, textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+  line-height: 5rem;
+}

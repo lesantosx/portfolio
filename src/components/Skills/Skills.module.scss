@@ -1,0 +1,34 @@
+@import 'sass/_tokens';
+
+.skills{
+  margin-bottom: 100px;
+  
+
+  h1 {
+    text-align: left;    
+    margin-top: 50px;
+    color: $color-primary-light;
+    font-weight: $font-weight-bold;
+  }
+
+  div {
+    align-items: center;
+    justify-items: center;
+  }
+
+  li {
+    display: inline-block;
+    margin: 0 25px;
+  }
+  
+  img {
+    width: 80px;
+    height: 80px;
+  }
+
+  img:hover {
+    transform: scale(1.3);
+  }
+
+} 
+

@@ -17,8 +17,8 @@ export default function Developments({ project }) {
         })}        
       </ul>
       <div className={styles.footer}>
-        <a className={styles.btnRead} href={project.preview} target="_blank">Preview</a>
-        <a className={styles.btnRead} href={project.code} target="_blank">Code</a>
+        <a className={styles.btnRead} href={project.preview} target="_blank" rel="noreferrer">Preview</a>
+        <a className={styles.btnRead} href={project.code} target="_blank" rel="noreferrer">Code</a>
       </div>
       
     </div>

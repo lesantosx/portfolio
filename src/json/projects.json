@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "Organo",
+    "description": "Organization of people and teams",
+    "preview": "https://organo-lesantosx.vercel.app/",
+    "code": "https://github.com/lesantosx/organo",
+    "highlight": true,
+    "techs": [
+      {
+        "id": 1,
+        "name": "React",
+        "icon": "/assets/techs/react.svg"
+      },
+      {
+        "id": 2,
+        "name": "JavaScript",
+        "icon": "/assets/techs/javascript.svg"
+      },
+      {
+        "id": 3,
+        "name": "CSS3",
+        "icon": "/assets/techs/css.svg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Alura Space",
+    "description": "Space image gallery",
+    "preview": "https://alura-space-lesantosx.vercel.app/",
+    "code": "https://github.com/lesantosx/alura-space",
+    "highlight": true,
+    "techs": [
+      {
+        "id": 1,
+        "name": "React",
+        "icon": "/assets/techs/react.svg"
+      },
+      {
+        "id": 2,
+        "name": "JavaScript",
+        "icon": "/assets/techs/javascript.svg"
+      },
+      {
+        "id": 3,
+        "name": "Sass",
+        "icon": "/assets/techs/sass.svg"
+      }
+    ]
+  }
+]

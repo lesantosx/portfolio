@@ -2,45 +2,64 @@
 
 .post {
   text-align: center;
-  width: 282px;
+  width: 300px;
+  height: auto;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
-  border-radius: 0px 0px 10px 10px;
-  padding-bottom: 1.5rem;
+  border: 1px solid $color-primary-light;
+  border-radius: 10px;
+  padding-top: 1.0rem;
   transition: transform .2s;
-  background-color: $color-neutral-white;
+  background-color: transparent;
+
+  p {
+    color: $color-neutral-light;
+  }
 }
 
 .post:hover {
   transform: translate(0, -1rem);
 }
 
-.capa {
-  width: 100%;
+.techs {
+
+  &__li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 30px;
+  }
+  
 }
 
 .title {
   font-family: var(--font-secundary);
   font-size: 1.25rem;
-  color: var(--dark-blue);
+  color: $color-neutral-white;
   line-height: 1.75rem;
-  margin: 1.5rem 0 1.75rem;
+  margin: 1.0rem 0 1.75rem;
+}
+
+.footer {
+  margin: 20px 0;
 }
 
 .btnRead {
   display: inline-block;
-  border-radius: 24px;
   padding: 0.75rem 1.5rem;
   font-size: 1.125rem;
+  font-weight: $font-weight-bold;
   line-height: 1.125rem;
-  background-color: var(--medium-blue);
-  color: var(--white);
-  border: 3px solid var(--medium-blue);
+  background-color: transparent;
+  border: none;
+  color: $color-neutral-white;
   cursor: pointer;
-  transition: 0.2s
+  transition: 0.2s;  
 }
 
 .btnRead:hover {
-  border: 3px solid var(--dark-blue);
+  border: none;
+  color: $color-primary-light;
+  text-decoration: underline;
 }
 
 @media (max-width: 1100px) {

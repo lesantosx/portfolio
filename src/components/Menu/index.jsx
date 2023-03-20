@@ -19,7 +19,7 @@ export default function Menu() {
 
   return (
     <header>
-        <nav className={styles.nav}>
+        <nav id="header" className={styles.nav}>
           <MenuLink menus={menus} />
         </nav>
     </header>

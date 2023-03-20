@@ -1,34 +1,38 @@
 [
   {
     "name": "HTML",
-    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
+    "icon": "/assets/techs/html.svg"
   },
   {
     "name": "CSS",
-    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
+    "icon": "/assets/techs/css.svg"
   },
   {
     "name": "SASS",
-    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+    "icon": "/assets/techs/sass.svg"
+  },
+  {
+    "name": "Tailwindcss",
+    "icon": "/assets/techs/tailwindcss.svg"
   },
   {
     "name": "JavaScript",
-    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+    "icon": "/assets/techs/javascript.svg"
+  },
+  {
+    "name": "TypeScript",
+    "icon": "/assets/techs/typescript.svg"
   },
   {
     "name": "VueJs",
-    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original-wordmark.svg"
+    "icon": "/assets/techs/vuejs.svg"
   },
   {
     "name": "React",
-    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
+    "icon": "/assets/techs/react.svg"
   },  
   {
     "name": "PHP",
-    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
-  },
-  {
-    "name": "Laravel",
-    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg"
+    "icon": "/assets/techs/php.svg"
   }
 ]

@@ -1,0 +1,43 @@
+[
+  {
+      "id": 1,
+      "titulo": "Organo",
+      "texto": "",
+      "techs": [
+        {
+            "id": 1,
+            "name": "React",
+            "icon": "/assets/techs/react.svg"
+        },
+        {
+          "id": 2,
+          "name": "JavaScript",
+          "icon": "/assets/techs/javascript.svg"
+        }
+      ]
+  },
+  {
+      "id": 2,
+      "titulo": "Space Gallery",
+      "texto": "",
+      "techs": [
+        {
+            "id": 1,
+            "name": "",
+            "icon": ""
+        }
+      ]
+  },
+  {
+      "id": 3,
+      "titulo": "Project 3",
+      "texto": "",
+      "techs": [
+        {
+            "id": 1,
+            "name": "",
+            "icon": ""
+        }
+      ]
+  }
+]  

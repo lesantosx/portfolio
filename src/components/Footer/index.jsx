@@ -10,7 +10,7 @@ export default function Footer() {
         Developed by lesantosx  |       
           {icons.map((icon) => {
             return (              
-                <a href={icon.link}>
+                <a key={icon.name} href={icon.link}>
                   <img src={icon.icon} alt={icon.name} />
                 </a>
             )

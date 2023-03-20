@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.a14b233c.css",
-    "main.js": "/static/js/main.f8a13d48.js",
+    "main.css": "/static/css/main.d5e162fe.css",
+    "main.js": "/static/js/main.d62c9449.js",
     "static/media/sammy-line-workflow.gif": "/static/media/sammy-line-workflow.5039a8c143e0c8633da0.gif",
     "static/media/lesantosx-circle.png": "/static/media/lesantosx-circle.700ff45eea1b3e746b74.png",
     "static/media/sammy-line-17.png": "/static/media/sammy-line-17.04e7fa0c334448d2cf2b.png",
     "index.html": "/index.html",
-    "main.a14b233c.css.map": "/static/css/main.a14b233c.css.map",
-    "main.f8a13d48.js.map": "/static/js/main.f8a13d48.js.map"
+    "main.d5e162fe.css.map": "/static/css/main.d5e162fe.css.map",
+    "main.d62c9449.js.map": "/static/js/main.d62c9449.js.map"
   },
   "entrypoints": [
-    "static/css/main.a14b233c.css",
-    "static/js/main.f8a13d48.js"
+    "static/css/main.d5e162fe.css",
+    "static/js/main.d62c9449.js"
   ]
 }

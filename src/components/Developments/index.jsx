@@ -3,10 +3,6 @@ import styles from './Developments.module.scss'
 export default function Developments({ project }) {
   const description = `# ${project.description}`
 
-  const openPreview = (url) => {
-    window.open(url)
-  }
-
   return (
     <div className={styles.post}>           
       <h2 className={styles.title}>{project.title}</h2>

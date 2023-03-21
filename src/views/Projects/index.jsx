@@ -3,14 +3,9 @@ import { useState } from 'react'
 import styles from './Projects.module.scss'
 
 import Developments from 'components/Developments'
-import Banner from 'components/Banner'
-import image from 'assets/sammy-line-workflow.gif'
 
 import projectsJson from 'json/projects.json'
 import skills from 'json/skills.json'
-
-
-//link="https://icons8.com/illustrations/author/7WmtYU90j36d" alt="Illustration by Fruzka" <img src={image} alt="Illustration by Fruzka" />
 
 export default function Projects() {
 
@@ -21,8 +16,8 @@ export default function Projects() {
   const filterProjects = (name) => {
     let newItems = []
 
-    projects.filter((p) => {
-			p.techs.map((tech) => {
+    projects.forEach((p) => {
+			p.techs.forEach((tech) => {
         if(tech.name === name){
           newItems.push(p)
         }
@@ -32,7 +27,7 @@ export default function Projects() {
   }
 
   return (
-    <main>
+    <main className={styles.container}>
       <div className={styles.filters}>       
         <ul className={styles.filters__ul} >
           <span>Filter:</span>       

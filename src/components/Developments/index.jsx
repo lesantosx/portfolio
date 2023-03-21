@@ -1,5 +1,7 @@
 import styles from './Developments.module.scss'
 
+import { Tooltip } from '@mui/material'
+
 export default function Developments({ project }) {
   const description = `# ${project.description}`
 
@@ -11,7 +13,10 @@ export default function Developments({ project }) {
         {project.techs.map((tech) => {
           return (
             <li className={styles.techs__li} key={tech.id}>
-              <img src={tech.icon} alt={tech.name}/>
+              <Tooltip title={tech.name}>
+                <img src={tech.icon} alt={tech.name}/>
+              </Tooltip>
+              
             </li>
           )
         })}        

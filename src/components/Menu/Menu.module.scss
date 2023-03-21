@@ -1,14 +1,19 @@
 @import '/src/sass/tokens';
 
 .nav {
+    position: fixed;
+    z-index: 99; 
+    top: 0px;
     background-color: $backogrund-dark;
     height: 112px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 3rem;
-    border-bottom: 1px solid $color-primary;
-}    
+    border-bottom: 1px solid $color-primary;      
+}
+
 
 @media (max-width: 744px) {
     .nav {

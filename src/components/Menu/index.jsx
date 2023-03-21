@@ -10,11 +10,7 @@ export default function Menu() {
 		{
 			children: 'Projects',
 			to: '/projects'
-		},
-		//{
-		//	children: 'About Me',
-		//	to: '/aboutme'
-		//}
+		}
 	]
 
   return (

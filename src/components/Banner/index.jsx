@@ -9,8 +9,8 @@ export default function Banner({ title, description, img, link, alt }) {
 				<p className={styles.paragraph}>{paragraph}</p>		
 
 				<div className={styles.socials}>
-					<a className={styles.socials__btn} href="https://www.linkedin.com/in/lesantosx/">LinkedIn</a>
-					<a className={styles.socials__btn} href="https://github.com/lesantosx">GitHub</a>		
+					<a className={styles.socials__btn} href="https://www.linkedin.com/in/lesantosx/" target="_blank" rel="noreferrer">LinkedIn</a>
+					<a className={styles.socials__btn} href="https://github.com/lesantosx" target="_blank" rel="noreferrer">GitHub</a>		
 				</div>
 				
 			</div>

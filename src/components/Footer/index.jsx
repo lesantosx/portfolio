@@ -7,10 +7,10 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <div>
-        Developed by lesantosx  |       
+        <span>Developed by lesantosx</span>        
           {icons.map((icon) => {
             return (              
-                <a key={icon.name} href={icon.link}>
+                <a key={icon.name} href={icon.link} target="_blank" rel="noreferrer">
                   <img src={icon.icon} alt={icon.name} />
                 </a>
             )

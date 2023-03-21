@@ -6,7 +6,7 @@ export default function Developments({ project }) {
   const description = `# ${project.description}`
 
   return (
-    <div className={styles.post}>           
+    <div className={styles.post}>         
       <h2 className={styles.title}>{project.title}</h2>
       <p>{description}</p>
       <ul className={styles.techs}>

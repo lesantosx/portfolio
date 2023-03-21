@@ -1,34 +1,39 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+
 import styles from './Home.module.scss'
 import Banner from 'components/Banner'
 import Skills from 'components/Skills'
 import Highlights from 'components/Highlights'
 
-import image from 'assets/sammy-line-workflow.gif'
+import image from 'assets/lesantosx-circle.png'
+
 
 export default class Home extends Component { 
 
   constructor() {
     super();
     this.state = {
-       className: 'hidden'
+       showSkills: 'hidden',
+       showHighlights: 'hidden'
     }
   }
   
   handleScroll() { 
-    
-   if (document.documentElement.scrollTop > 200) {
-    //console.log(document.documentElement.scrollTop);
+    if (document.documentElement.scrollTop > 50) {
       this.setState({
-        className: 'show'
+        showSkills: 'show'
       })
-    } 
+    }
+    if(document.documentElement.scrollTop > 300){
+      this.setState({
+        showHighlights: 'show'
+      })
+    }
   }
 
   componentDidMount() {
     window.onscroll = () => this.handleScroll()
-  }
-  
+  }    
 
   render() {
     return (    
@@ -38,12 +43,17 @@ export default class Home extends Component {
             <Banner 
               title="Hello, I'm Letícia Santos" 
               description="Front-end Developer" 
-              img={image} 
-              link="https://icons8.com/illustrations/author/7WmtYU90j36d"
-              alt="Illustration by Fruzka"
+              img={image}               
             /> 
-            <Skills />
-            <Highlights className={this.state.className}/>                
+            <div className={styles.section__aboutme}>
+              <span className={styles.aboutme}>
+              3+ years of web development experience. Has been working on full stack development, 
+              but always focusing on the front-end. Bringing performance improvements, 
+              clean code and reusable components.
+              </span>
+            </div>
+            <Skills showSkills={this.state.showSkills}/>
+            <Highlights showHighlights={this.state.showHighlights}/>                
           </>    
         </center>     
       </main>

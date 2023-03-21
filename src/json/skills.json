@@ -1,14 +1,14 @@
 [
   {
-    "name": "HTML",
+    "name": "HTML5",
     "icon": "/assets/techs/html.svg"
   },
   {
-    "name": "CSS",
+    "name": "CSS3",
     "icon": "/assets/techs/css.svg"
   },
   {
-    "name": "SASS",
+    "name": "Sass",
     "icon": "/assets/techs/sass.svg"
   },
   {

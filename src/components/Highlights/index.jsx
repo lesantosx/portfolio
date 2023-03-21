@@ -10,11 +10,11 @@ export default function Highlights(props) {
   const projects = projectsJson.filter( p => p.highlight)
 
   return (
-    <section className={styles.body}>      
+    <section id="highlights" className={styles.body}>      
 
       <div className={styles.about_wrapper}>        
         <div className={styles.about_text}>
-          <div className={props.className === 'show' ? styles.show : styles.hidden}>
+          <div className={props.showHighlights === 'show' ? styles.show : styles.hidden}>
           <h1>{title}</h1>
           <ul className={styles.posts}>
             {projects.map((project) => {

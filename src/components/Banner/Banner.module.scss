@@ -38,6 +38,31 @@
     height: 400px;
 }
 
+.socials{
+    text-align: center;
+    display: flex;
+    gap: 2.5rem;
+
+    &__btn {
+        color: $color-neutral-ultra-light;
+        font-weight: $font-weight-bold;
+        margin-right: 10px;
+        background-color: transparent;
+        border: 0.1rem solid $color-primary;
+        border-radius: 2rem;
+        padding: 15px;
+        width: 200px;
+        transition: 0.3s;
+    }
+
+    &__btn:hover {
+        color: $color-neutral-ultra-light;
+        font-weight: $font-weight-bold;
+        background-color: $color-primary;
+        border: 1px solid $color-primary-light;
+    }
+}
+
 @media (max-width: 1100px) {    
     .banner {
         padding: 3.5rem 1.5rem;

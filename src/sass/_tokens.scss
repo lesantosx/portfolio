@@ -12,7 +12,7 @@ $font-weight-bold: 700;
 $font-size-rem-base: 14px;
 $font-size-heading-xl: 3rem;
 $font-size-heading-lg: 2.286rem;
-$font-size-heading-md: 1.714rem;
+$font-size-heading-md: 1.8rem;
 $font-size-heading-sm: 1.286rem;
 $font-size-heading-xs: 1.143rem;
 $font-size-heading-xxs: 0.857rem;
@@ -42,7 +42,8 @@ $color-info: #30bbc4;
 
 //Background
 $background-body: #11172B;
-$background-gradient: linear-gradient(180deg, rgba(17,23,43,1) 0%, rgba(27,8,45,1) 50%);
+$backogrund-dark: #13131F;
+$background-gradient: linear-gradient(0deg, rgba(17,23,43,1) 0%, rgba(19,19,31,1) 50%);
 
 //Neutral Colors
 $color-neutral-white: #FFFFFF;

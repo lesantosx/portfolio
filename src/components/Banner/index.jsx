@@ -6,7 +6,13 @@ export default function Banner({ title, description, img, link, alt }) {
     <section className={styles.banner}> 
       <div>
 				<h1 className={styles.title}>{title}</h1>
-				<p className={styles.paragraph}>{paragraph}</p>
+				<p className={styles.paragraph}>{paragraph}</p>		
+
+				<div className={styles.socials}>
+					<a className={styles.socials__btn} href="https://www.linkedin.com/in/lesantosx/">LinkedIn</a>
+					<a className={styles.socials__btn} href="https://github.com/lesantosx">GitHub</a>		
+				</div>
+				
 			</div>
 
 			<div className={styles.images}>

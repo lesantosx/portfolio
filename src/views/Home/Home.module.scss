@@ -1,1 +1,14 @@
 @import '/src/sass/tokens';
+
+
+.section__aboutme {
+  padding: 0px 200px;  
+  margin-bottom: 100px;
+}
+
+.aboutme {
+  text-align: center;
+  color: $color-neutral-ultra-light;
+  font-size: $font-size-heading-md; 
+  line-height: 180%;
+}

@@ -2,10 +2,11 @@
   {
     "id": 1,
     "title": "Organo",
-    "description": "Organization of people and teams",
+    "description": "Register and view your teams and collaborators. A place where you can organize people and teams.",
     "preview": "https://organo-lesantosx.vercel.app/",
     "code": "https://github.com/lesantosx/organo",
     "highlight": true,
+    "image": "https://lh3.googleusercontent.com/H2BHx1ZZsEOMHuTx7a9SwZh8iE7onfZMsBOOBpAE-qHzTvX6qB6Y06eQje_DJko8fwVcJ_GEz2pMkezgTGrO6gGiVdP9hhn5SgpetNg-G6d8SWpxXIx8cvBOa_TSYSRxKfyBrFtIHBR5Vl8L81_CVNNXn0O5WZCpLqXxaNX_DUz9HCa6-jYKeeuzBvhvTu5sCmNKr_BhwdT6dUp6fkfzKOATA1orAYOqHeAt8hVM5-kRj6TTq2eAAc7kOQRctvJwwL756gEysGnhdSqb08wNZ_Bpy5FVNHTc_b4dySuv4MBsai9YBd3Z-o0ZTe1KDW335Qc6W6FF-ZBQ3ARhufCTMWTuhBKJ7SchrO-GtwLy95h-p0OeB1GvcrXAQkJ023LbuJYZ5u1zwuWDixH0rsSPnlGal31Izqgp6bfmnHlTHBoqjlN_jVmM5ANruCrIDVuCoBDdGM2nCKOjlh2nMRJOMbIzcfMsSPE9IRhgx4aeRY-LP-57__oNkTFvCxuTe3hXjLXP2X3ZVkOzokl2q85NjGXL3ZnOs2X3HJvC8XmaZeaTVYYpwSu5OA2agxHrOUpLgLJAJIrrLoREk1X0UgrBxZpSsNdM01SjfZc8eMgyl9ZEMJcZt7145r5WFS9YpskOFhE4bhjYlI-wb2V1_VOKUdzZ7ihH4E52GsTLY2WMkZAQGv0i5fNJDP00Q21ICZygD2Yu_ySYLCzzfucKBofDomCzAYxvHksA25pAR9liD4vURDkgg3CzPtqi0-kJZaArciLduK-CIOadtFrUx2IW5zl9ujT5g919TLpwFoh2rpbOZ4wQtUDhrcp5AVaa62iKLfyWAcQDHOtMdIBjqiSmhdYOFbKPR2SkYlnEl5572i44x_ot-wxyQ0tTbrdM5PHObVDojQV6YwzOjBxl51dajBBFIshVBz4xp_o8-ygT8wgvTsoJtg=w1836-h934-s-no?authuser=0",
     "techs": [
       {
         "id": 1,
@@ -27,10 +28,11 @@
   {
     "id": 2,
     "title": "Alura Space",
-    "description": "Space image gallery",
+    "description": "The most complete gallery of the space, where you will find images of the space and be able to favorite the best ones.",
     "preview": "https://alura-space-lesantosx.vercel.app/",
     "code": "https://github.com/lesantosx/alura-space",
-    "highlight": true,
+    "highlight": false,
+    "image": "https://lh3.googleusercontent.com/dNk5s1ynzlwXXJkWFMmeBf8kKmwC0Ief1mNzoX7KDZyCS_YRzRPVowe7gzyewVtVswEY_VA78oMb2_UTzA6cOkJUxl1CVDAf1Vk8-JW1cE8pYHNY2VDbFCqu8UzwYKiCAkFLXYk07ckhE3KoOtcIngfbwQYswABH6aD_mbhx4eaHCRUapejf7zknwe6jIu0-dVDOCbJ6p-s8Tf8z6OXTe9XuDpvgqwFlDcmiR69EaYZWflqJH2d7VL0bpBoJG80lRSH5zd1fSF608YG6GMRlPbulQmgPfDXmOjjj1LMumexWZ3uT4j3nrfol7ciuKkWJs8Afy-B4EMGuqnDUBpPdTS9Yc7R8dVNvgoqUfAy2p-B5HqJx_5JB3CSRv03JKCijMg7lrHqft8jTD6J8Mv9zbbeoTZMW-oQkgm4pDL1v30NCR417g9Dm_zl7tdKspRwGUvsWpOnI6klAuhu_lyIOfSrASMZT6s96Tg3iWO2t1ZIV_hTIp1hYev_s2D06A80QU48_8mq9k7beNakd2Q6W2q2Zh6G6PoKAUIHoB227i3SZLWM6wCCsh2wJeP3nwhZ7ym6aAyVp0WpcEictBov1KXI7wkotkC3CdIyhV5R_wM__UgAVXFuDPuvBfJpVLtAg5rLgTfl8J9GY9dHhIAXWpj3YcGcL-w3e8BrSB4XJUD8dG53YLKGMTYq2wBZrk3HhTd9pBM3mOZ-6IIFwFw_w0YQs0DksFV_dTW32p9bzlyw2G8QyjXW2M_umqWOXR1MCNS_wxw1i-nEzlvn4AzX1CNTxWk0ZkcNz-71Nnp2KiasEcWODEEe4KkL80nEvsU8qRyJjTldt68u1dcqujngiWWjL8IIuWrlXCpALbXAuqsqI1A4OWrAv89GeCEVP8OO2vFWmMk9Ruw2_7rOdYgm_brvkT7uUT2XWnTSr5WKBmemNl8CELw=w402-h201-no?authuser=0",
     "techs": [
       {
         "id": 1,
@@ -46,6 +48,58 @@
         "id": 3,
         "name": "Sass",
         "icon": "/assets/techs/sass.svg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Netflix Clone",
+    "description": "This project is a simplified front-end clone of the Netflix streaming platform.",
+    "preview": "https://netflix-clone-lesantosx.vercel.app/",
+    "code": "https://github.com/lesantosx/netflix-clone",
+    "highlight": true,
+    "image": "https://lh3.googleusercontent.com/hhaC1IBQRG0U_Y5lCtkpZRZwo8QWljASuzQ0xxKUILQ2gsqYTZo-6MN8RScsvUDcA313hms_2jkK3Gt5rX2nIaKygWgQwtjwAriVZR-30idZvJP2nD20qvrJK5beU4ISNWIwCCBTcp0cODHYHQpJKp3-GgeBdDOkDe7A1H-USUecbW6fUMEt1ryItembB7mzyGpmYW3CnU3hzFvkHWMpsZx8oQgiPynCtEp_-0w-illLNV6WvxEh9eCtrADg9nF0TfDulIsSFyaYKy2oWIBRzIZ40o3zmHbVfuKYPNziLBmSpBkKLhE-aXhzsNxmXslnaPmWCvQwseHAjZtzFrKHklh5i6oKLF_cR_hIJ55KzXZLO-1ENs9n8PnKiPpikK79ZiXUyxv-MvU4S4AE3OVpRLkHQZivTrpcW2Bl6tXwv2_khrnY_Fl2qiCSqsF2sx3XWmASk2hVoz13sULnoOlygIW2uxrRD4ofEWNgNgZOIsCD5cJHc92rtjRHvcgmICLu-3n3OFn46RpwuTPSGhmxE7xTqIQiryoPYXPDz-_SyyOKDcEp9u12Cy1mckgLF2v57gywspRimPQbm-ILXGpwBDv27j789NCBbGzNefX36GDsmcI9kXmA9t1ukHXEteGh3WmkkAYkJ6D07ShKkBHdIWofclYBnEM72x8RGl5YOYsHJLBeNGHLzosWL7o7uYYvuc8yMFy0kWVeTMHelqYOAFb889bXkZ2tjTej1Klvl7W2l3PidQzPWWV082mrgf82SHYR-kvT1XvYKztfe4K4FLCOwaVpLMdm8iB8m2RHq4_q42_hdjeiYLRitlaK6k0pEmSOGas-xSpWMVJOFN0pnu61otkfkOHItDE1hpUXvjCH0sTK-qPljDhC9Enxbu1rHBaWyB3XNq63t5wztsZTr3MUWdWKM_dZf6O_Eq3E4gLKMf4eDw=w401-h201-no?authuser=0",
+    "techs": [
+      {
+        "id": 1,
+        "name": "React",
+        "icon": "/assets/techs/react.svg"
+      },
+      {
+        "id": 2,
+        "name": "JavaScript",
+        "icon": "/assets/techs/javascript.svg"
+      },
+      {
+        "id": 3,
+        "name": "CSS3",
+        "icon": "/assets/techs/css.svg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Cine Tag",
+    "description": "Watch Alura's videos on YouTube and favorite the best ones.",
+    "preview": "https://cinetag-lesantosx.vercel.app/",
+    "code": "https://github.com/lesantosx/cinetag",
+    "highlight": true,
+    "image": "https://lh3.googleusercontent.com/KzCeb85nt4K6w1U3zE-7NW9skYfUldE2SfBJqtSkW8GLxu6LMV85J7HQwwGkeUqQbsHXOLH5-Uy2LgS4eBUnKslSL2A9fnRq_RIrwszcd5q3131h82519nKbcCSAq1U6uFO-WsSk10OrYGPlaqYDMYBU5q54TeqH2tRf8PwjZcu2kTv5HGk6Ab_2_Xmt_4S-8KysOAlxRMTyfn5UQ1FHZtUwuueLMBkpfx7Db9BTAdjmWUT7rTTOaa39SuECAPBkk6y6CFOWSb6f2Y1rvaxDiENBqtOUnoego9yU3PAVvsv_jHVc1k2x35lRFWze1wqcGbvPjgJ4JwS1QanibGGljYglwACWuaJM0vTBorxfQasniIDIYJ-_Riw4j1O2A5FAoiIPA1FwqJdupgvCFLSb91X-ylI_OLZzjslYfq408xxRjQfb18V7X0A00U5vdbqUHtQO6Pee-Ov0Ix7Uy2YZlKiBu-L0ciOaIeALY3QjEmHFhhQN_I2tZ5XztkSuVhjhNXT36Yoc3Yl34yThZPHzB7EsfmzfHvMP2SuxtxCS_-i4GTanQpIirwT88rjX-FN2pRZZGEhiBeUSQXJAxnR4dwJlHMI3pyxi9QHU1uMLyQMghFvASwVhsdEcu9ZMb2dvpHi6dSVTXzxdIhnIWi3FZ71TIp29YCfrYJ3zgkHEKf5L5SAhisa9CsNA6tNwj_b7tiXmQbw76IKkryzMWTmgUk3e3oWnBgbJNRTDzI8JQnbKataFdlmogZN1EfAR9p5kmTWaY9bz5nE-1pWmbZwCkChbXOqN--bB3iEHMMq6Dxh-1TeqUcsfDgmuiZD2fGdMTlgdJPnpKKR1azY3QS8UzHc5CdvubtiNCV0DBvPP-Us4dGfwJnHvv-a8Zw5gZjwtNBliC5yp3Vfy6U0AmrxLONIBVRWIvzPj6Fd4VFYXj5ACoCakKQ=w1887-h954-s-no?authuser=0",
+    "techs": [
+      {
+        "id": 1,
+        "name": "React",
+        "icon": "/assets/techs/react.svg"
+      },
+      {
+        "id": 2,
+        "name": "JavaScript",
+        "icon": "/assets/techs/javascript.svg"
+      },
+      {
+        "id": 3,
+        "name": "CSS3",
+        "icon": "/assets/techs/css.svg"
       }
     ]
   }

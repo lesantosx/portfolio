@@ -40,18 +40,12 @@ export default function Projects() {
         </ul>
       </div>
 
-      <div className={styles.projects}>
-        <ul className={styles.posts}>
-          {projects.map((project) => {
-            return (
-              <li key={project.id}>
-                <Developments key={project.id} project={project}/> 
-              </li>                     
-            )
-          })}
-        </ul>
-        <div>          
-        </div>
+      <div className={styles.projects}>        
+        {projects.map((project) => {
+          return (
+            <Developments key={project.id} project={project}/>                 
+          )
+        })}
       </div>      
     </main>
   )

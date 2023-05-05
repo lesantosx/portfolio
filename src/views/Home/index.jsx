@@ -1,62 +1,51 @@
-import React, { Component } from 'react'
+import React, { useEffect, useState } from "react"
 
 import styles from './Home.module.scss'
 import Banner from 'components/Banner'
 import Skills from 'components/Skills'
-import Highlights from 'components/Highlights'
+import Projects from 'components/Projects'
 
 import image from 'assets/lesantosx-circle.png'
 
+export default function Home() { 
+  const [showSkills, setShowSkills] = useState('hidden')
+  const [showHighlights, setShowHighlights] = useState('hidden')
 
-export default class Home extends Component { 
+  useEffect(() => {
+    const scrollListener = () => {
+      if(window.scrollY > 10) {
+        setShowSkills('show')
+      } 
 
-  constructor() {
-    super();
-    this.state = {
-       showSkills: 'hidden',
-       showHighlights: 'hidden'
+      if(window.scrollY > 300){
+        setShowHighlights('show')
+      }
     }
-  }
-  
-  handleScroll() { 
-    if (document.documentElement.scrollTop > 50) {
-      this.setState({
-        showSkills: 'show'
-      })
-    }
-    if(document.documentElement.scrollTop > 300){
-      this.setState({
-        showHighlights: 'show'
-      })
-    }
-  }
 
-  componentDidMount() {
-    window.onscroll = () => this.handleScroll()
-  }    
+    window.addEventListener('scroll', scrollListener)
 
-  render() {
-    return (    
-      <main className={styles.container}>
-        <center>
-          <>
-            <Banner 
-              title="Hello, I'm Letícia Santos" 
-              description="Front-end Developer" 
-              img={image}               
-            /> 
-            <div className={styles.section__aboutme}>
-              <span className={styles.aboutme}>
-              3+ years of web development experience. Has been working on full stack development, 
-              but always focusing on the front-end. Bringing performance improvements, 
-              clean code and reusable components.
-              </span>
-            </div>
-            <Skills showSkills={this.state.showSkills}/>
-            <Highlights showHighlights={this.state.showHighlights}/>                
-          </>    
-        </center>     
-      </main>
-    )
-  }
+    return () => {
+      window.removeEventListener('scroll', scrollListener)
+    }
+  }, []) 
+
+  return (    
+    <main className={styles.container}>
+      <Banner 
+        title="Hello, I'm Letícia Santos" 
+        description="Front-end Developer" 
+        img={image}               
+      /> 
+      <section id="about" className={styles.section__aboutme}>
+        <span className={styles.aboutme}>
+          3+ years of web development experience. Has been working on full stack development, 
+          but always focusing on the front-end. Bringing performance improvements, 
+          clean code and reusable components.
+        </span>   
+
+      </section>
+      <Skills showSkills={showSkills}/>      
+      <Projects showHighlights={showHighlights}/>       
+    </main>           
+  )
 }

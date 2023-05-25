@@ -26,32 +26,6 @@
     ]
   },
   {
-    "id": 2,
-    "title": "Alura Space",
-    "description": "The most complete gallery of the space, where you will find images of the space and be able to favorite the best ones.",
-    "preview": "https://alura-space-lesantosx.vercel.app/",
-    "code": "https://github.com/lesantosx/alura-space",
-    "highlight": false,
-    "image": "https://i.imgur.com/dsSIC47.png",
-    "techs": [
-      {
-        "id": 1,
-        "name": "React",
-        "icon": "/assets/techs/react.svg"
-      },
-      {
-        "id": 2,
-        "name": "JavaScript",
-        "icon": "/assets/techs/javascript.svg"
-      },
-      {
-        "id": 3,
-        "name": "Sass",
-        "icon": "/assets/techs/sass.svg"
-      }
-    ]
-  },
-  {
     "id": 3,
     "title": "Netflix Clone",
     "description": "This project is a simplified front-end clone of the Netflix streaming platform.",
@@ -59,32 +33,6 @@
     "code": "https://github.com/lesantosx/netflix-clone",
     "highlight": true,
     "image": "https://i.imgur.com/Co4iS3j.png",
-    "techs": [
-      {
-        "id": 1,
-        "name": "React",
-        "icon": "/assets/techs/react.svg"
-      },
-      {
-        "id": 2,
-        "name": "JavaScript",
-        "icon": "/assets/techs/javascript.svg"
-      },
-      {
-        "id": 3,
-        "name": "CSS3",
-        "icon": "/assets/techs/css.svg"
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "title": "Cine Tag",
-    "description": "Watch Alura's videos on YouTube and favorite the best ones.",
-    "preview": "https://cinetag-lesantosx.vercel.app/",
-    "code": "https://github.com/lesantosx/cinetag",
-    "highlight": true,
-    "image": "https://i.imgur.com/i07xWgQ.png",
     "techs": [
       {
         "id": 1,

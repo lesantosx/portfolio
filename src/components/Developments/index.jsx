@@ -1,6 +1,6 @@
 import styles from './Developments.module.scss'
 
-import LaptopIcon from '@mui/icons-material/Laptop';
+import LaptopIcon from '@mui/icons-material/Laptop'
 import GitHubIcon from '@mui/icons-material/GitHub'
 
 import { Tooltip } from '@mui/material'

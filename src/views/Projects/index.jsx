@@ -11,7 +11,6 @@ import { Tooltip } from '@mui/material'
 export default function Projects() {
 
   const [projects, setProjects] = useState(projectsJson)
-
   const [filterActive, setFilterActive] = useState('all')
 
   const filterProjects = (filter) => {
@@ -25,10 +24,10 @@ export default function Projects() {
     <main className={styles.container}>
       <center className={styles.filters}>       
         <ul className={styles.filters__ul} >      
-          <li key="all" className={filterActive === 'all' ? styles.filter__active :  ''} onClick={() => setProjects(projectsJson)}>All</li>
+          <li key="all" className={filterActive === 'all' ? styles.filter__active : ''} onClick={() => setProjects(projectsJson)}>All</li>
           {filters.map((filter) => {
             return (              
-              <li key={filter.id} className={filterActive === filter.type ? styles.filter__active :  ''} onClick={() => filterProjects(filter)}>{filter.type}</li>
+              <li key={filter.id} className={filterActive === filter.type ? styles.filter__active : ''} onClick={() => filterProjects(filter)}>{filter.type}</li>
             )
           })}
         </ul>

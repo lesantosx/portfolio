@@ -56,12 +56,12 @@
   {
     "id": 3,
     "title": "fake-shopping",
-    "description": "This project is a simplified front-end clone of the Netflix streaming platform.",
+    "description": "This is a fake e-commerce project, for you to buy and pay for fake things.",
     "type": 3,
     "preview": "https://fake-shopping-lesantosx.vercel.app/",
     "code": "https://github.com/lesantosx/fake-shopping",
     "highlight": true,
-    "image": "https://i.imgur.com/Co4iS3j.png",
+    "image": "https://i.imgur.com/1umqlOe.png",
     "techs": [
       {
         "id": 1,

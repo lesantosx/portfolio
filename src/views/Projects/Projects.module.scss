@@ -49,6 +49,12 @@
   }
 }
 
+.filter__active {
+  color: #000000 !important;
+  background-color: $color-primary-light !important;
+  font-weight: 700 !important;
+}
+
 .project {
   background-color: #14143a;
   width: 443px;
@@ -104,4 +110,9 @@
     width: 24px;
     cursor: pointer;
   }    
+}
+
+.noProject {
+  color: $color-neutral;
+  margin-top: 100px;
 }

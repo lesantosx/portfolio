@@ -1,7 +1,7 @@
 
 # My portfolio
 
-My portfolio has some projects that I developed
+My portfolio has some projects I've developed
 
 
 ## 🛠 Technologies

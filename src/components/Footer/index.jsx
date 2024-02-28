@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <div>
-        <span>Developed by lesantosx</span>       
+        <span>© 2024 | Letícia Santos</span>       
       </div>
       <div>
         {icons.map((icon) => {

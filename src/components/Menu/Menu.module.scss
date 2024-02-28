@@ -1,22 +1,39 @@
 @import '/src/sass/tokens';
 
 .nav {
-    position: fixed;
-    z-index: 99; 
-    top: 0px;
-    background-color: $backogrund-dark;
-    height: 112px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 3rem;
-    border-bottom: 1px solid $color-primary;      
+	position: fixed;
+	z-index: 99; 
+	top: 0px;
+	background-color: $background-nav;
+	height: 82px;
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 3rem;
+	border-radius: 16px;
+	margin-top: 20px;
+}
+
+.btn__i18n {
+	border: none;
+	color: $color-grey-2;
+	margin-bottom: 10px;
+}
+
+.icon {
+	vertical-align: middle;
+	color: $color-grey-2;
+	cursor: pointer;
+}
+
+.btn__i18n:hover {
+	font-weight: $font-weight-bold;
 }
 
 
 @media (max-width: 744px) {
-    .nav {
-        height: 72px;
-    }
+	.nav {
+		height: 72px;
+	}
 }

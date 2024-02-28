@@ -6,19 +6,22 @@ import Skills from 'components/Skills'
 import Projects from 'components/Projects'
 
 import image from 'assets/lesantosx-circle.png'
+import About from "components/About"
 
 export default function Home() { 
+  const [showAbout, setShowAbout] = useState('hidden')
   const [showSkills, setShowSkills] = useState('hidden')
-  const [showHighlights, setShowHighlights] = useState('hidden')
+  const [showProjects, setShowProjects] = useState('hidden')
 
   useEffect(() => {
     const scrollListener = () => {
       if(window.scrollY > 10) {
+        setShowAbout('show')
         setShowSkills('show')
       } 
 
       if(window.scrollY > 300){
-        setShowHighlights('show')
+        setShowProjects('show')
       }
     }
 
@@ -36,16 +39,9 @@ export default function Home() {
         description="Front-end Developer" 
         img={image}               
       /> 
-      <section id="about" className={styles.section__aboutme}>
-        <span className={styles.aboutme}>
-          3+ years of web development experience. Has been working on full stack development, 
-          but always focusing on the front-end. Bringing performance improvements, 
-          clean code and reusable components.
-        </span>   
-
-      </section>
+      <About showAbout={showAbout} />
       <Skills showSkills={showSkills}/>      
-      <Projects showHighlights={showHighlights}/>       
+      <Projects showHighlights={showProjects}/>       
     </main>           
   )
 }

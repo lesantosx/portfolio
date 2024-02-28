@@ -7,19 +7,11 @@
 }
 
 :root {
-  --dark-blue: #041833;
-  --medium-blue: #1875E8;
-  --main-font-color: #041833;
-  --post-font-color: #444444;
-  --white: #FFF;
-  --font-main: 'Raleway', sans-serif;
-  --font-secondary: 'Playfair Display', sans-serif;
-
-  font-family: var(--font-main);
+  font-family: $font-family-secondary;
 }
 
 body {  
-  background: $background-gradient;
+  background: $backogrund-dark;
 }
 
 a, button, input, textarea {
@@ -29,6 +21,7 @@ a, button, input, textarea {
 
 button {
   background-color: transparent;
+  cursor: pointer;
 }
 
 a {
@@ -42,4 +35,9 @@ li {
 h1, h2, h3 {
   font-weight: 700;
   line-height: 5rem;
+}
+
+header {
+  display: flex;
+  justify-content: center;
 }

@@ -1,6 +1,7 @@
 //Fonts
 $font-family: 'Lato', Helvetica, Arial, sans-serif;
 $font-family-semibold: 'Lato Semibold', Helvetica, Arial, sans-serif;
+$font-family-secondary:'Nunito Sans', sans-serif;
 
 //Font Weight
 $font-weight-light: 300;
@@ -42,7 +43,9 @@ $color-info: #30bbc4;
 
 //Background
 $background-body: #11172B;
-$backogrund-dark: #13131F;
+$backogrund-dark: #0B0F17;
+$background-nav: #1C1836;
+$background-cards: rgba(17, 23, 43, 0.6);
 $background-gradient: linear-gradient(0deg, rgba(17,23,43,1) 0%, rgba(19,19,31,1) 50%);
 
 //Neutral Colors
@@ -97,6 +100,8 @@ $color-grey-3: #666666;
 $color-grey-4: #555555;
 $color-grey-5: #333333;
 
+$color-purple-1: rgba(127, 17, 224, 0.4);
+
 //Contextual Colors
 
 //Spacing
@@ -119,6 +124,7 @@ $border-radius-submit-large: 20px;
 //Border
 $border-small: 1px;
 $border-medium: 2px;
+$border-division: 1px solid $color-purple-1;
 
 //Box Shadows
 $box-shadow-s: 1px 1px 3px 0 rgba(0,0,0,0.1);

@@ -4,14 +4,14 @@ import styles from './Skills.module.scss'
 import skills from 'json/skills.json'
 
 export default function Skills(props) {
-  const title = '<  My Skills  />'
+  const title = 'my skills'
 
   return (
     <section id="skills" className={styles.skills}>
       <div className={styles.about_wrapper}>        
         <div className={styles.about_text}>
           <div className={props.showSkills === 'show' ? styles.show : styles.hidden}>
-            <h1>{title}</h1>
+            <h1>{title}<span>.</span></h1>
             <div>
               <ul>
                 {skills.map((skill) => {
@@ -19,8 +19,7 @@ export default function Skills(props) {
                     <li key={skill.name}>
                         <Tooltip title={skill.name}>
                           <img src={skill.icon} alt={skill.name} /> 
-                        </Tooltip>                       
-                                                    
+                        </Tooltip>                    
                     </li>
                   )
                 })}

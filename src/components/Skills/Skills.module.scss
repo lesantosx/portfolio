@@ -1,14 +1,21 @@
 @import '/src/sass/tokens';
 
 .skills{
-  margin-bottom: 100px;  
+  padding-bottom: 150px;
   height: auto;
+  border-bottom: $border-division;
 
   h1 {
     text-align: left;    
     margin-top: 50px;
     color: $color-neutral-light;
+    font-size: 28px;
+    font-family: $font-family-secondary;
     font-weight: $font-weight-bold;
+
+    span {
+      color: $color-primary-light;
+    }
   }
 
   div {
@@ -37,12 +44,9 @@
 
   .about_wrapper {
     height: 15em;
-    // width: 100vw;
   }
   .about_text {
     position: relative;
-    // width: 30em;
-    // height: 20em;
   }
   
   .hidden {
@@ -52,7 +56,6 @@
   .show {
     position: absolute;
     left: -10em;
-    // width: 30em;
     height: 20em;
     -webkit-animation: slide-in 1s forwards;
     animation: slide-in 1s forwards;
@@ -63,6 +66,5 @@
   @keyframes slide-in {
    100% { left: 0 }
   }
-
 } 
 

@@ -4,7 +4,7 @@
   display: inline-block;
   padding: 0.75rem 1.5rem;
   font-size: $font-size-text-small;
-  font-family: poppins,sans-serif;
+  font-family: $font-family-secondary;
   line-height: 1.125rem;
   background-color: transparent;
   border: none;
@@ -39,7 +39,7 @@
 }
 
 .project {
-  background-color: #14143a;
+  background-color: $background-cards;
   width: 406.333px;
   min-height: 460px;
   border: 1px solid hsla(0,0%,100%,.1);

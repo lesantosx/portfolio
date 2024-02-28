@@ -4,15 +4,35 @@
 	position: fixed;
 	z-index: 99; 
 	top: 0px;
-	background-color: $background-nav;
-	height: 82px;
-	width: 90%;
+	background-color: $backogrund-dark;
+	height: 90px;
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	column-gap: 3rem;
-	border-radius: 16px;
-	margin-top: 20px;
+	border-bottom: 1px solid $color-purple-1;
+}
+
+.menus {
+ display: flex;
+
+ li {
+	padding: 0 10px;
+	cursor: pointer;
+ }
+}
+
+.title {
+	font-size: $font-size-heading-sm;
+	font-weight: $font-weight-bold;
+	line-height: 1.5rem;
+	color: $color-neutral-light;
+}
+
+.title:hover {
+	color: $color-primary-light;
+	transform: scale(1.1);
 }
 
 .btn__i18n {

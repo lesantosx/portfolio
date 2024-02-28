@@ -19,8 +19,7 @@ export default function Projects(props) {
 	}
 
   return (
-    <section id="projects" className={styles.body}>     
-
+    <section id="projects" className={styles.body}>
       <div className={styles.about_wrapper}>        
         <div className={styles.about_text}>
           <div className={props.showHighlights === 'show' ? styles.show : styles.hidden}>
@@ -35,8 +34,7 @@ export default function Projects(props) {
             
           </div>
          </div>
-      </div>
-      
+      </div>      
     </section>
   )
 }

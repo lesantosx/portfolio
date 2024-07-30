@@ -9,7 +9,6 @@ export default function Developments({ project }) {
 
   return (
     <div className={styles.project}>
-
       <div className={styles.project_img}>
         <img src={project.image} alt=''/>
       </div>
@@ -21,8 +20,7 @@ export default function Developments({ project }) {
               <li className={styles.techs__li} key={tech.id}>
                 <Tooltip title={tech.name}>
                   <img src={tech.icon} alt={tech.name}/>
-                </Tooltip>
-                
+                </Tooltip>                
               </li>
             )
           })}        
@@ -35,10 +33,13 @@ export default function Developments({ project }) {
       </div>
 
       <div className={styles.project_btns}>
-          <a className={styles.btnRead} href={project.preview} target="_blank" rel="noreferrer"><LaptopIcon sx={{ fontSize: 16 }} className={styles.icons}/>live demo</a>
-          <a className={styles.btnRead} href={project.code} target="_blank" rel="noreferrer"><GitHubIcon sx={{ fontSize: 16 }} className={styles.icons} />source code</a>        
+        <a className={styles.btnRead} href={project.preview} target="_blank" rel="noreferrer">
+          <LaptopIcon sx={{ fontSize: 16 }} className={styles.icons} />live demo
+        </a>
+        <a className={styles.btnRead} href={project.code} target="_blank" rel="noreferrer">
+          <GitHubIcon sx={{ fontSize: 16 }} className={styles.icons} />source code
+        </a>        
       </div>
-
     </div>
   )
 }

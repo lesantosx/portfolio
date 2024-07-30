@@ -34,5 +34,13 @@
   {
     "name": "PHP",
     "icon": "/assets/techs/php.svg"
+  },  
+  {
+    "name": "Laravel",
+    "icon": "/assets/techs/laravel.svg"
+  },  
+  {
+    "name": "Figma",
+    "icon": "/assets/techs/figma.svg"
   }
 ]

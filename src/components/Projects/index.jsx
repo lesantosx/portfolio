@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react"
+import React, { useEffect, useState } from 'react'
 
 import styles from './Projects.module.scss'
 import Developments from 'components/Developments'
 
-export default function Projects(props) {
+export default function Projects() {
   const title = 'projects'
   const apiProjectsJson = 'https://my-json-server.typicode.com/lesantosx/github-src-json/db'
   const [projectsJson, setProjectsJson] = useState([])
@@ -22,7 +22,7 @@ export default function Projects(props) {
     <section id="projects" className={styles.body}>
       <div className={styles.about_wrapper}>        
         <div className={styles.about_text}>
-          <div className={props.showHighlights === 'show' ? styles.show : styles.hidden}>
+          <div>
             <h1>{title}<span>.</span></h1>
             <div className={styles.projects}>
               {projectsJson.map((project) => {

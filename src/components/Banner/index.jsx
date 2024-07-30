@@ -8,7 +8,7 @@ export default function Banner() {
 	const description="# Front-end Developer"
 
   return (
-    <section className={styles.banner}> 
+    <section id="banner" className={styles.banner}> 
 			<div className={styles.container}>
 				<div className={styles.intro}>
 					<div className={styles.details}>
@@ -38,7 +38,7 @@ export default function Banner() {
 					</div>		
 				</div>
 
-				<div className={styles.about__section}>
+				<div id="about" className={styles.about__section}>
 					<h1>About me<span>.</span></h1>
 					<div className={styles.about}>
 						<span>

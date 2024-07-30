@@ -3,16 +3,16 @@ import { Tooltip } from '@mui/material'
 import styles from './Skills.module.scss'
 import skills from 'json/skills.json'
 
-export default function Skills(props) {
+export default function Skills() {
   const title = 'my skills'
 
   return (
     <section id="skills" className={styles.skills}>
       <div className={styles.about_wrapper}>        
         <div className={styles.about_text}>
-          <div className={props.showSkills === 'show' ? styles.show : styles.hidden}>
+          <div>
             <h1>{title}<span>.</span></h1>
-            <div>
+            <div className={styles.skills_details}>
               <ul>
                 {skills.map((skill) => {
                   return (

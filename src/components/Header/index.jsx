@@ -5,21 +5,26 @@ export default function Header() {
 	const menus = [
 		{
 			title: 'Home',
-			to: '/'
+			to: 'banner'
 		},
 		{
 			title: 'About me',
-			to: '/'
+			to: 'about'
 		},
 		{
 			title: 'Skills',
-			to: '/'
+			to: 'skills'
 		},
 		{
 			title: 'Projects',
-			to: '/'
+			to: 'projects'
 		}
 	]
+
+	const goTo = (section) => {
+		const element = document.getElementById(section)
+    element.scrollIntoView()
+	}
 
   return (
     <header className={styles.header}>
@@ -28,7 +33,7 @@ export default function Header() {
 				<ul className={styles.menus}>
 					{menus.map((menu) => {
 						return (
-							<li key={menu.title} className={styles.title}>{menu.title}</li>
+							<li key={menu.title} className={styles.title} onClick={() => goTo(menu.to)}>{menu.title}</li>
 						)
 					})}
 				</ul>							

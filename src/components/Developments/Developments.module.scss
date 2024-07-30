@@ -21,7 +21,6 @@
 }
 
 .techs {
-
   &__li {
     display: inline-block;
     margin-right: 10px;
@@ -40,8 +39,8 @@
 
 .project {
   background-color: $background-cards;
-  width: 406.333px;
-  min-height: 460px;
+  width: 360px;
+  height: 480px;
   border: 1px solid hsla(0,0%,100%,.1);
   border-radius: 17px;
   padding: 20px;
@@ -49,11 +48,13 @@
 }
 
 .project_details {
+  height: 160px;
   padding: 0 15px;
 }
 
 .project_name{
   color: $color-neutral-ultra-light;
+  line-height: 3rem;
 }
 
 .project_info {
@@ -61,21 +62,20 @@
   line-height: 1.7rem;
 }
 
-.project_skills{
+.project_skills {
   color: $color-neutral-light;
   font-weight: $font-weight-bold;
   font-size: $font-size-text-small;
   text-transform: uppercase;
-  padding: 5px 15px;
+  padding: 0 15px;
 }
 
-.project_btns{
+.project_btns {
   display: flex;
-  justify-content: space-between;
-  margin-top: 50px;
+  justify-content: space-between;  
 }
 
-.project_img{
+.project_img {
   display: block;
   overflow: hidden;
   position: relative;
@@ -85,9 +85,14 @@
     border-radius: 25px !important;
     cursor: pointer;
     display: inline-block !important;
-    height: 220px;
+
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+
+    //height: 220px;
     padding: 15px;   
-    width: 100%;
+    //width: 100%;
     vertical-align: middle;
     border-style: none;
     -moz-transition: all 0.3s;

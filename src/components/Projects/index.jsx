@@ -30,8 +30,12 @@ export default function Projects() {
                   <Developments key={project.id} project={project}/>                    
                 )
               })}    
-            </div>
-            
+            </div>            
+          </div>
+          <div className={styles.connect_section}>See all my repositories 
+            <a href="https://github.com/lesantosx?tab=repositories" className={styles.connect} target="_blank" rel="noreferrer">
+              on my GitHub :)
+            </a>
           </div>
          </div>
       </div>      

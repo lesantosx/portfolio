@@ -21,10 +21,34 @@ export default function Header() {
 		}
 	]
 
-	const goTo = (section) => {
-		const element = document.getElementById(section)
-    element.scrollIntoView()
+	const easeInOutCubic = (t, b, c, d) => {
+		t /= d / 2;
+		if (t < 1) return c / 2 * t * t * t + b;
+		t -= 2;
+		return c / 2 * (t * t * t + 2) + b;
 	}
+
+	const handleScroll = (sectionId) => {
+		const target = document.getElementById(sectionId)
+		const offset = -100
+		const start  = window.scrollY
+		const distance = target.offsetTop - start + offset
+		const duration = 500
+		let startTime  = null
+
+		function step(timestamp) {
+			if (!startTime) {
+				startTime = timestamp;
+			}
+			const progress = timestamp - startTime;
+			window.scrollTo(0, easeInOutCubic(progress, start, distance, duration));
+			if (progress < duration) {
+				window.requestAnimationFrame(step);
+			}
+		}
+
+    window.requestAnimationFrame(step);
+  }
 
   return (
     <header className={styles.header}>
@@ -33,7 +57,13 @@ export default function Header() {
 				<ul className={styles.menus}>
 					{menus.map((menu) => {
 						return (
-							<li key={menu.title} className={styles.title} onClick={() => goTo(menu.to)}>{menu.title}</li>
+							<li
+								key={menu.title}
+								className={styles.title}
+								onClick={() => handleScroll(menu.to)}
+							>
+								{menu.title}
+							</li>
 						)
 					})}
 				</ul>							

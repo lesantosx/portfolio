@@ -8,12 +8,20 @@
     "icon": "/assets/techs/css.svg"
   },
   {
-    "name": "Sass",
+    "name": "SASS",
     "icon": "/assets/techs/sass.svg"
   },
   {
     "name": "Tailwindcss",
     "icon": "/assets/techs/tailwindcss.svg"
+  },
+  {
+    "name": "Less",
+    "icon": "/assets/techs/less.svg"
+  },
+  {
+    "name": "Bootstrap",
+    "icon": "/assets/techs/bootstrap.svg"
   },
   {
     "name": "JavaScript",
@@ -38,7 +46,7 @@
   {
     "name": "Laravel",
     "icon": "/assets/techs/laravel.svg"
-  },  
+  },
   {
     "name": "Figma",
     "icon": "/assets/techs/figma.svg"

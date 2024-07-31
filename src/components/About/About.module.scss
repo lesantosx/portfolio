@@ -1,0 +1,146 @@
+@import '/src/sass/tokens';
+
+.about_me {
+  padding-bottom: 100px;
+  border-bottom: $border-division;
+}
+
+.about__section {
+  text-align: center;
+  margin-top: 100px;
+
+  h1 {
+    text-align: center;
+    color: $color-neutral-light;
+    font-size: 28px;
+    font-family: $font-family-secondary;
+    font-weight: $font-weight-bold;
+
+    span {
+      color: $color-primary-light;
+    }
+  }
+}
+
+.about {
+  display: flex;
+  justify-content: center; 
+
+  span {
+    color: $color-neutral-light;
+    font-size: 18px;
+    text-align: center;
+    width: 55%;
+    line-height: 180%;
+  }
+}
+
+.work_experience {
+  text-align: center;
+  color: $color-neutral-light;
+  font-size: 28px;
+  font-family: $font-family-secondary;
+  font-weight: $font-weight-bold;
+  margin-bottom: 50px;
+
+  span {
+    color: $color-primary-light;
+  }
+}
+
+.connect_section {
+  display: flex;
+  justify-content: center;
+  color: $color-neutral-light;
+}
+
+.connect {
+  color: $color-primary-light;
+  margin-left: 5px;
+}
+
+.connect:hover {
+  text-decoration: underline;
+}
+
+//timeline
+.design_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.design {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline {
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline_content {
+  padding: 20px;
+  background: rgba(17, 23, 43, 0.8);
+  -webkit-box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px $color-primary;
+  box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px $color-primary;
+  border-radius: 5px;
+  border: 1px solid rgba(22, 29, 54, 0.8);
+  color: white;
+  transition: 0.4s ease;
+  overflow-wrap: break-word !important;
+  border-radius: 6px;
+  margin: 0px 20px 20px 20px;
+}
+
+.timeline_period {
+  font-style: italic;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.timeline_job {
+  margin-top: 10px;
+}
+.timeline_component {
+  margin: 0px 20px 20px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .timeline {
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+  }
+
+  .timeline_middle {
+    position: relative;
+    background-image: linear-gradient(45deg, $color-primary-light, $color-primary, $color-primary-dark);
+    width: 3px;
+    height: 100%;
+  }
+
+  .main_middle {
+    opacity: 0;
+  }
+
+  .timeline_circle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-image: linear-gradient(45deg, $color-primary-light, $color-primary, $color-primary-dark);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+}

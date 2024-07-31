@@ -1,9 +1,5 @@
 @import '/src/sass/tokens';
 
-.body {
-  height: 100vh;
-}
-
 .body h1 {
   text-align: left;    
   margin-top: 50px;
@@ -46,4 +42,19 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;   
   grid-column-gap: 40px;
+}
+
+.connect_section {
+  display: flex;
+  justify-content: center;
+  color: $color-neutral-light;
+}
+
+.connect {
+  color: $color-primary-light;
+  margin-left: 5px;
+}
+
+.connect:hover {
+  text-decoration: underline;
 }

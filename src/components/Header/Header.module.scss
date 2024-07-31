@@ -51,9 +51,24 @@
 	font-weight: $font-weight-bold;
 }
 
-
 @media (max-width: 744px) {
 	.nav {
 		height: 72px;
+	}
+}
+
+.scroll_animation {
+	animation: scroll-down 0.5s ease-in-out;
+}
+
+@keyframes scroll-down {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
 	}
 }

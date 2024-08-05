@@ -90,8 +90,8 @@
 .timeline_content {
   padding: 20px;
   background: rgba(17, 23, 43, 0.8);
-  -webkit-box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px $color-primary;
-  box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px $color-primary;
+  -webkit-box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #5a3e72;
+  box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #5a3e72;
   border-radius: 5px;
   border: 1px solid rgba(22, 29, 54, 0.8);
   color: white;
@@ -99,6 +99,12 @@
   overflow-wrap: break-word !important;
   border-radius: 6px;
   margin: 0px 20px 20px 20px;
+  cursor: pointer;
+}
+
+.timeline_content:hover {
+  -webkit-box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px $color-primary;
+  box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px $color-primary;
 }
 
 .timeline_period {
